@@ -85,14 +85,14 @@ body {
 
 .instagram-logout {
     color: #0095f6;
-    margin-top: 1rem;
+    margin-top: 0.2rem;
 }
 
 .not-account {
     color: rgb(160, 160, 160);
 }
 
-.link-blue {
+span {
     color: #0095f6;
 }
 
@@ -155,5 +155,17 @@ body {
     
     .group {
         border: 1px solid transparent;
+    }
+    .download{
+        width:100%
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content:space-between;
+       
+    }
+
+    .app-download:nth-child(1){
+        margin: 0.3rem;
     }
 }
